@@ -56,21 +56,33 @@ input{
 }
 
 .entry-content * * {
-font-size:1em
+font-size:1em;
+font-family:'Roboto Condensed';
+color: #333;
  }
+
  .entry-content h1,
- .entry-content h2 {
+ .entry-content h2,
+ .entry-content h3,
+ .entry-content h4,
+ .entry-content h5,
+ .entry-content h6 {
     color:#000;
-    font-family:'Roboto Condensed';
-    font-weight:bold;
+    font-weight:700;
     line-height:1.2em
  }
+
+.entry-content h1 { font-size: 2.25rem; }
+ .entry-content h2 { font-size: 1.75em; }
+ .entry-content h3 { font-size: 1.5em; }
+ .entry-content h4 { font-size: 1.25em; }
+ .entry-content h5 { font-size: .83em; }
+ .entry-content h6 { font-size: .75em; }
+
  .entry-content h3,
  .entry-content h4 {
 margin-bottom:.8em;
 color:#000;
-font-family:'Roboto Condensed';
-font-weight:bold;
 font-size:1.75em;
 line-height:1.2em
  }
@@ -78,8 +90,7 @@ line-height:1.2em
  .entry-content h6 {
 margin-bottom:.4em;
 color:#000;
-font-family:'Roboto Condensed';
-font-weight:bold;
+
 font-size:1.5em;
 line-height:1.2em
  }
@@ -545,9 +556,7 @@ color: #fff;
 
 .cv-header-name {
 text-transform: uppercase;
- font-weight: 500;
- font-size: 30px;
- line-height: 1;
+line-height: 1;
  color: #BB1E1E;
  -webkit-font-smoothing: antialiased;
 }
@@ -555,7 +564,6 @@ text-transform: uppercase;
 .cv-header-subname {
  display: block;
  text-transform: none;
- font-size: 24px;
  font-weight: 300;
  margin-bottom: 5px;
  color: #777;
@@ -585,7 +593,6 @@ text-transform: uppercase;
 
 .cv-section-title {
  color: #BB1E1E;
- font-size: 24px;
  font-weight: 300;
  padding-left: 21.5%;
  margin-bottom: 15px;
@@ -661,3 +668,12 @@ text-transform: uppercase;
 }
 
 /*#endregion */
+
+.table-header, 
+.table-row {
+  display: flex; 
+}
+
+.table-col-1 {
+  flex: 1;        /* distributes space on the line equally among items */
+}
