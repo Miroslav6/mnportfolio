@@ -194,7 +194,7 @@ font-style:italic
  }
  .entry-content a {
 color:#0054a6;
-text-decoration:underline
+text-decoration:none;
  }
  .entry-content a:hover,
  .entry-content a:focus,
