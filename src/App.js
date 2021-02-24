@@ -155,6 +155,9 @@ function App() {
           <h3 className="cv-section-title">Other perks</h3>
           <div className="cv-section-content cv-section-content--indented">
             <ul>
+            <li>In 2019 - Certified ScrumMaster (CSM)<br />
+            Credential Identifier - 1131235
+            </li>
               <li>In 2011 - Cisco | Networking Acdemy<br />
             Certificate of course Competition - CCNA Exploration: Network fundamentals
             </li>
@@ -190,6 +193,18 @@ function App() {
           <h3 className="cv-section-title">LinkedIn</h3>
           <div className="cv-section-content cv-section-content--indented">
             <a href="https://www.linkedin.com/in/miroslav-nedev" target="blank">www.linkedin.com/in/miroslav-nedev</a>
+          </div>
+        </div>
+        <div className="cv-section">
+          <h3 className="cv-section-title">Web CV</h3>
+          <div className="cv-section-content cv-section-content--indented">
+            <a href="https://miroslav6.github.io/mnportfolio/" target="blank">miroslav6.github.io/mnportfolio</a>
+          </div>
+        </div>
+        <div className="cv-section">
+          <h3 className="cv-section-title">Github</h3>
+          <div className="cv-section-content cv-section-content--indented">
+            <a href="https://github.com/Miroslav6" target="blank">https://github.com/Miroslav6</a>
           </div>
         </div>
       </div>
