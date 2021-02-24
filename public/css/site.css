@@ -24,19 +24,6 @@
     display: block;
  }
  
- audio,
- canvas,
- video {
-    display: inline-block;
- }
- 
- audio:not([controls]) {
-    display: none;
-    height: 0;
- }
- 
- [hidden] { display: none; }
- 
  pre {
     white-space: pre;
     white-space: pre-wrap;
@@ -48,38 +35,8 @@
     content: '';
     content: none;
  }
- 
- ins {
-    background-color: #ff9;
-    color: #000;
-    text-decoration: none;
- }
- 
- mark {
-    background-color: #A7F4F6;
-    color: #555;
- }
- 
- del { text-decoration: line-through; }
- 
- abbr[title], dfn[title] {
-    border-bottom: 1px dotted;
-    cursor: help;
- }
- 
- table {
-    border-collapse: collapse;
-    border-spacing: 0;
- }
- 
- 
- /* ------------------------------------------------------------------ */
- /* c. Default and Basic Styles
-       Adapted from:
-       Skeleton CSS Framework - http://www.getskeleton.com/
-       Typeplate Typographic Starter Kit - http://typeplate.com/
- /* ------------------------------------------------------------------ */
- 
+  
+
  *,
  *:before,
  *:after {
@@ -98,8 +55,7 @@
     font-weight: normal;
     font-size: 16px;
     color: #fff;
- 
-    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
      -webkit-text-size-adjust: 100%;
  }
 
@@ -130,30 +86,6 @@ p{
 
  .text-yellow{
     color: #fbd56d;
- }
- 
- /*	Blockquotes */
- blockquote {
-    margin: 30px 0px;
-    padding-left: 40px;
-    position: relative;
- }
-
- blockquote cite {
-    display: block;
-    font-size: 12px;
-    font-style: normal;
-    line-height: 18px;
- }
- 
- blockquote cite a,
- blockquote cite a:visited { color: #8B9798; border: none }
- 
- .pull-quote blockquote {
-    margin: 0;
- }
- .pull-quote blockquote:before {
-    content: none;
  }
  
  /* Abbreviations */
