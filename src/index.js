@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './Header/Header';
 import Welcome from "./Components/Welcome/Welcome";
-import Experience from "./Components/Experience/Experience";
+
 import App from './App';
 import Footer from './Footer/Footer';
 import reportWebVitals from './reportWebVitals';
@@ -13,7 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
       <Welcome />
-      <Experience />
+      
       <App />
     <Footer />
   </React.StrictMode>,

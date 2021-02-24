@@ -57,6 +57,20 @@ function App() {
                   </ul>
                 </div>
               </div>
+              <div className="cv-timeline-row">
+                <div className="cv-timeline-side">
+                  <div className="cv-timeline-company">KUKUI</div>
+                  <div className="cv-timeline-date">6/2012 - 8/2015</div>
+                  <a href="https://kukui.com">kukui.com</a>
+                </div>
+                <div className="cv-timeline-body">
+                  <h4 className="cv-timeline-position">Front-end Developer</h4>
+                  <ul>
+                    <li>Create website from PSD, converting it to HTML and CSS</li>
+                    <li>RESPONSIVE DESIGN</li>
+                  </ul>
+                </div>
+              </div>
 
             </div>
           </div>
@@ -77,6 +91,7 @@ function App() {
               <li><a rel='nofollow' target='_blank'>Git</a></li>
               <li><a rel='nofollow' target='_blank'>NPM</a></li>
               <li><a rel='nofollow' target='_blank'>SalesForce</a></li>
+              <li><a rel='nofollow' target='_blank'>DUDA</a></li>
               <li><a rel='nofollow' target='_blank'>Customer support</a></li>
               <li><a rel='nofollow' target='_blank'>Project estimation</a></li>
               <li><a rel='nofollow' target='_blank'>Tech recruitment</a></li>

@@ -12,7 +12,7 @@ function Welcome() {
       <p>Self-motivated software developer with <strong>over 8 years</strong> of professional experience in coding, launching and teaching others.</p>
       </div>
       <div className="col-md-2">
-      <nav id="nav-wrap" className="nav-wrap text-center">
+      {/* <nav id="nav-wrap" className="nav-wrap text-center">
         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
@@ -23,7 +23,7 @@ function Welcome() {
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
-      </nav>
+      </nav> */}
       </div>
     </div>
   </div>
