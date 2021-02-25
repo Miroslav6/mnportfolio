@@ -30,7 +30,10 @@ function App() {
               </div>
               <div className="cv-header-meta-row">
                 +359 883 378 679
-          </div>
+              </div>
+              <div className="cv-header-meta-row">
+                Veliko Tarnovo, Bulgaria
+              </div>
             </div>
           </div>
         </div>
