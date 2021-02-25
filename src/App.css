@@ -476,108 +476,27 @@ color: #fff;
 /*#region  CV page*/
 
 .cv-page {
- padding: 80px 80px 60px;
- box-shadow: 2px 2px 1px #606060;
-}
-
-.cv-section {
- overflow: hidden;
-}
-
-.cv-header {
- display: -ms-flexbox;
- display: flex;
-}
-
-.cv-header-avatar {
- float: left;
-}
-
-.cv-header-avatar img {
- border-radius: 2px;
- height: 150px;
-}
-
-.cv-header-text {
- -ms-flex: 1;
- flex: 1;
- padding: 0 15px;
+ padding: 4rem;
 }
 
 .cv-header-name {
 text-transform: uppercase;
-line-height: 1;
- color: #BB1E1E;
- -webkit-font-smoothing: antialiased;
-}
-
-.cv-header-subname {
- display: block;
- text-transform: none;
- font-weight: 300;
- margin-bottom: 5px;
- color: #777;
-}
-
-.cv-header-meta {
- overflow: hidden;
- font-size: 14px;
- color: #777;
- white-space: nowrap;
 }
 
 .cv-header-meta-right {
- float: right;
- border-left: 1px solid #e0e0e0;
- padding-left: 15px;
- text-align: left;
+border-left: 1px solid #e0e0e0;
 }
 
-.cv-section {
- overflow: hidden;
+.cv-section-content{
+  margin-bottom: 1.5rem;
 }
 
-.cv-section+.cv-section {
- margin-top: 1.5em;
-}
 
 .cv-section-title {
- color: #BB1E1E;
- font-weight: 300;
- padding-left: 21.5%;
- margin-bottom: 15px;
- page-break-after: avoid;
+margin-bottom: 15px;
+page-break-after: avoid;
 }
 
-.cv-timeline-row {
- overflow: hidden;
- page-break-inside: avoid;
-}
-
-.cv-timeline-side {
- float: left;
- width: 21.5%;
- text-align: right;
- padding-right: 15px;
- color: #777;
- font-size: 13px;
-}
-
-.cv-timeline-company {
- background-color: #eee;
- padding: 3px 7px;
- margin-bottom: 5px;
- border-radius: 2px;
-}
-
-.cv-timeline-body {
- float: left;
- width: 78.5%;
-}
-
-.cv-section-content.cv-section-content--indented {
- padding-left: 21.5%;
-}
 
 .tech-tags, .tech-tags>li {
  margin: 0;

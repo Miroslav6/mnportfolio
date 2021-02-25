@@ -7,13 +7,12 @@ import Rating3 from './Files/Images/rating-3.png';
 function App() {
   return (
     <div className="container entry-content cv-page">
-      <div className="cv-page-inner">
+      <div className="row cv-page-inner">
 
-        <div className="cv-section cv-header">
-          <div className="cv-header-avatar">
+          <div className="col-sm-2 cv-header-avatar">
             <img src={AvatarImgSrc} alt="Avatar" />
           </div>
-          <div className="cv-header-text">
+          <div className="col-sm-7 cv-header-text">
             <h1 className="cv-header-name">Miroslav Nedev</h1>
             <h2 className="cv-header-subname">Lead Front End Developer</h2>
             <p className="cv-header-lead">
@@ -22,7 +21,7 @@ function App() {
 
             </p>
           </div>
-          <div className="cv-header-meta">
+          <div className="col-sm-3 text-center text-sm-right cv-header-meta">
             <div className="cv-header-meta-right">
               <div className="cv-header-meta-row">
 
@@ -36,20 +35,16 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        
 
-        <div className="cv-section">
-          <h2 className="cv-section-title">Professional Experience</h2>
-          <div className="cv-section-content">
-            <div className="cv-timeline">
-
-              <div className="cv-timeline-row">
-                <div className="cv-timeline-side">
+        
+          <h2 className="offset-sm-2 col-sm-10 cv-section-title">Professional Experience</h2>
+          <div className="col-sm-2 text-right">
                   <div className="cv-timeline-company">KUKUI</div>
                   <div className="cv-timeline-date">6/2012 - Current</div>
                   <a href="https://kukui.com">kukui.com</a>
                 </div>
-                <div className="cv-timeline-body">
+          <div className="col-sm-10 cv-timeline-body">
                   <h4 className="cv-timeline-position">Team Leader of Front-end Developers</h4>
                   <p>Developed the new frontend for KUKUI, one of the top CRM and website providers in the US Automotive Industry</p>
                   <ul>
@@ -62,14 +57,12 @@ function App() {
                     
                   </ul>
                 </div>
-              </div>
-              <div className="cv-timeline-row">
-                <div className="cv-timeline-side">
+          <div className="col-sm-2 text-right">
                   <div className="cv-timeline-company">KUKUI</div>
                   <div className="cv-timeline-date">6/2012 - 8/2015</div>
                   <a href="https://kukui.com">kukui.com</a>
                 </div>
-                <div className="cv-timeline-body">
+          <div className="col-sm-10 cv-timeline-body">
                   <h4 className="cv-timeline-position">Front-end Developer</h4>
                   <ul>
                     <li>Create website from PSD, converting it to HTML and CSS</li>
@@ -78,15 +71,9 @@ function App() {
                     <li>High Quality Websites</li>
                   </ul>
                 </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
-
-        <div className="cv-section">
-          <h3 className="cv-section-title">Skills</h3>
-          <div className="cv-section-content cv-section-content--indented">
+              
+          <h3 className="offset-sm-2 col-sm-10 cv-section-title">Skills</h3>
+          <div className="offset-sm-2 col-sm-10 cv-section-content cv-section-content--indented">
             <ul className="cv-tech-tags tech-tags">
               <li><a rel='nofollow' target='_blank'>CSS</a></li>
               <li><a rel='nofollow' target='_blank'>HTML</a></li>
@@ -107,61 +94,47 @@ function App() {
               <li><a rel='nofollow' target='_blank'>Mentor & Leader</a></li>
             </ul>
           </div>
-        </div>
+     
 
-        <div className="cv-section">
-          <h3 className="cv-section-title">Education</h3>
-          <div className="cv-section-content">
-            <div className="cv-timeline">
-              <div className="cv-timeline-row">
-                <div className="cv-timeline-side">
+        
+          <h3 className="offset-sm-2 col-sm-10 cv-section-title">Education</h3>
+        
+          <div className="col-sm-2 text-right">
                   <div className="cv-timeline-company">Professional high school of electronics and electrical "M.V.Lomonosov" G.Oriahovica</div>
                   <div className="cv-timeline-date">2004 - 2007</div>
                   <a href="https://pglomonosov.org/">pglomonosov.org</a>
-                </div>
-                <div className="cv-timeline-body">
+          </div>
+          <div className="col-sm-10 cv-timeline-body">
                   <div className="cv-timeline-position"><p>Еlectronic technique with profile Мicroprocessor technology</p></div>
 
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
-        <div className="cv-section">
-          <div className="cv-section-content">
-            <div className="cv-timeline">
-              <div className="cv-timeline-row">
-                <div className="cv-timeline-side">
+       
+          
+          
+        
+        
+                <div className="col-sm-2 text-right">
                   <div className="cv-timeline-company">Technical university of Gabrovo</div>
                   <div className="cv-timeline-date">2007 - 2011</div>
                   <a href="https://www.tugab.bg/index.php?lang=bg">www.tugab.bg</a>
                 </div>
-                <div className="cv-timeline-body">
+                <div className="col-sm-10 cv-timeline-body">
                   <div className="cv-timeline-position">Bachelor degree - Computer systems and technologies</div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="cv-section">
-          <div className="cv-section-content">
-            <div className="cv-timeline">
-              <div className="cv-timeline-row">
-                <div className="cv-timeline-side">
+
+
+                <div className="col-sm-2 text-right">
                   <div className="cv-timeline-company">Technical university of Gabrovo</div>
                   <div className="cv-timeline-date">2011 - 2014</div>
                   <a href="https://www.tugab.bg/index.php?lang=bg">www.tugab.bg</a>
                 </div>
-                <div className="cv-timeline-body">
+                <div className="col-sm-10 cv-timeline-body">
                   <div className="cv-timeline-position">Master degree - Computer systems and technologies</div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="cv-section">
-          <h3 className="cv-section-title">Other perks</h3>
-          <div className="cv-section-content cv-section-content--indented">
+
+        
+          <h3 className="offset-sm-2 col-sm-10 cv-section-title">Other perks</h3>
+          <div className="offset-sm-2 col-sm-10 cv-section-content">
             <ul>
             <li>In 2019 - Certified ScrumMaster (CSM)<br />
             Credential Identifier - 1131235
@@ -179,10 +152,10 @@ function App() {
 
             </ul>
           </div>
-        </div>
-        <div className="cv-section">
-          <h3 className="cv-section-title">Languages</h3>
-          <div className="cv-section-content cv-section-content--indented">
+       
+        
+          <h3 className="offset-sm-2 col-sm-10 cv-section-title">Languages</h3>
+          <div className="offset-sm-2 col-sm-10 cv-section-content">
           <section>
           <div className="table-header">
             <div className="table-col-1"></div>
@@ -196,25 +169,25 @@ function App() {
           </div>
         </section>
           </div>
-        </div>
-        <div className="cv-section">
-          <h3 className="cv-section-title">LinkedIn</h3>
-          <div className="cv-section-content cv-section-content--indented">
+       
+        
+          <h3 className="offset-sm-2 col-sm-10 cv-section-title">LinkedIn</h3>
+          <div className="offset-sm-2 col-sm-10 cv-section-content ">
             <a href="https://www.linkedin.com/in/miroslav-nedev" target="blank">www.linkedin.com/in/miroslav-nedev</a>
           </div>
-        </div>
-        <div className="cv-section">
-          <h3 className="cv-section-title">Web CV</h3>
-          <div className="cv-section-content cv-section-content--indented">
+        
+        
+          <h3 className="offset-sm-2 col-sm-10 cv-section-title">Web CV</h3>
+          <div className="offset-sm-2 col-sm-10 cv-section-content cv-section-content--indented">
             <a href="https://miroslav6.github.io/mnportfolio/" target="blank">miroslav6.github.io/mnportfolio</a>
           </div>
-        </div>
-        <div className="cv-section">
-          <h3 className="cv-section-title">Github</h3>
-          <div className="cv-section-content cv-section-content--indented">
+        
+        
+          <h3 className="offset-sm-2 col-sm-10 cv-section-title">Github</h3>
+          <div className="offset-sm-2 col-sm-10 cv-section-content cv-section-content--indented">
             <a href="https://github.com/Miroslav6" target="blank">https://github.com/Miroslav6</a>
           </div>
-        </div>
+        
       </div>
     </div>
   );
