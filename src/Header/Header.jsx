@@ -9,10 +9,10 @@ function Header() {
     <div className="header">
       <div className="container">
       <div className="row">
-        <div className="col-md-2">
+        <div className="col-3 col-md-2">
           <img src={Logo} alt="Logo" />
         </div>
-        <div className="col-md-3 offset-md-7">
+        <div className="col-9 col-md-3 offset-md-7 text-right">
           <div className="hd-mail">
             <a href="mailto:miroslav.nedev1@gmail.com" className="hd-mail-link">miroslav.nedev1@gmail.com</a>
           </div>
