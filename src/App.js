@@ -9,10 +9,10 @@ function App() {
     <div className="container entry-content cv-page">
       <div className="row cv-page-inner">
 
-          <div className="col-sm-2 cv-header-avatar">
+          <div className="col-sm-5 col-md-2 cv-header-avatar">
             <img src={AvatarImgSrc} alt="Avatar" />
           </div>
-          <div className="col-sm-7 cv-header-text">
+          <div className="col-sm-7 col-md-7 cv-header-text">
             <h1 className="cv-header-name">Miroslav Nedev</h1>
             <h2 className="cv-header-subname">Lead Front End Developer</h2>
             <p className="cv-header-lead">
@@ -21,25 +21,19 @@ function App() {
 
             </p>
           </div>
-          <div className="col-sm-3 text-center text-sm-right cv-header-meta">
-            <div className="cv-header-meta-right">
-              <div className="cv-header-meta-row">
-
-                <a href="mailto:miroslav.nedev1@gmail.com">miroslav.nedev1@gmail.com</a>
-              </div>
-              <div className="cv-header-meta-row">
-                +359 883 378 679
-              </div>
-              <div className="cv-header-meta-row">
-                Veliko Tarnovo, Bulgaria
-              </div>
+          <div className="col-sm-12 col-md-3 text-center text-md-right">
+            <div className="cv-header-meta">
+              <a href="mailto:miroslav.nedev1@gmail.com">miroslav.nedev1@gmail.com</a>
+              <br/>
+              <a href="tel:+359883378679">+359 883 378 679</a>
+             <p> Veliko Tarnovo, Bulgaria</p>
             </div>
           </div>
         
 
         
           <h2 className="offset-sm-2 col-sm-10 cv-section-title">Professional Experience</h2>
-          <div className="col-sm-2 text-right">
+          <div className="col-sm-2 text-right cv-timeline-details">
                   <div className="cv-timeline-company">KUKUI</div>
                   <div className="cv-timeline-date">6/2012 - Current</div>
                   <a href="https://kukui.com">kukui.com</a>
@@ -99,7 +93,7 @@ function App() {
         
           <h3 className="offset-sm-2 col-sm-10 cv-section-title">Education</h3>
         
-          <div className="col-sm-2 text-right">
+          <div className="col-sm-2 text-right cv-timeline-header">
                   <div className="cv-timeline-company">Professional high school of electronics and electrical "M.V.Lomonosov" G.Oriahovica</div>
                   <div className="cv-timeline-date">2004 - 2007</div>
                   <a href="https://pglomonosov.org/">pglomonosov.org</a>
