@@ -43,17 +43,20 @@ function App() {
               <div className="cv-timeline-row">
                 <div className="cv-timeline-side">
                   <div className="cv-timeline-company">KUKUI</div>
-                  <div className="cv-timeline-date">6/2012 - till now</div>
+                  <div className="cv-timeline-date">6/2012 - Current</div>
                   <a href="https://kukui.com">kukui.com</a>
                 </div>
                 <div className="cv-timeline-body">
                   <h4 className="cv-timeline-position">Team Leader of Front-end Developers</h4>
-                  <p>Developed the new frontend for one of the KUKUI in the Automotive industry.</p>
+                  <p>Developed the new frontend for KUKUI, one of the top CRM and website providers in the US Automotive Industry</p>
                   <ul>
-                    <li>Hiring and Education of the new employees, resolving of problems and leaded most of the decisions during the website developing.</li>
-                    <li>Helped recruit, onboard and mentor new team members.</li>
-                    <li>Manage and organise the work with new websites.</li>
-                    <li>Create website from PSD, converting it to HTML and CSS</li>
+                    <li>Recruit, interview and hire website developers</li>
+                    <li>Onboard, train and mentor new website developers</li>
+                    <li>Lead and manage website team, ensuring quality standards</li>
+                    <li>Handle escalation of website problems and advise on solutions</li>
+                    <li>Oversee website development, including creation and review of HTML, JavaScript and CSS</li>
+                    <li>Manage projects ensuring development completed and delivered on time</li>
+                    
                   </ul>
                 </div>
               </div>
@@ -67,7 +70,9 @@ function App() {
                   <h4 className="cv-timeline-position">Front-end Developer</h4>
                   <ul>
                     <li>Create website from PSD, converting it to HTML and CSS</li>
-                    <li>RESPONSIVE DESIGN</li>
+                    <li>Responsive Design: Develop website ensuring adherence to responsive grid or design</li>
+                    <li>Javascript</li>
+                    <li>High Quality Websites</li>
                   </ul>
                 </div>
               </div>
@@ -112,7 +117,7 @@ function App() {
                   <a href="https://pglomonosov.org/">pglomonosov.org</a>
                 </div>
                 <div className="cv-timeline-body">
-                  <div className="cv-timeline-position">Еlectronic technique with profile Мicroprocessor technology</div>
+                  <div className="cv-timeline-position"><p>Еlectronic technique with profile Мicroprocessor technology</p></div>
 
                 </div>
               </div>
@@ -177,14 +182,14 @@ function App() {
           <div className="cv-section-content cv-section-content--indented">
           <section>
           <div className="table-header">
-            <div class="table-col-1"></div>
-            <div class="table-col-1">Speaking</div>
-            <div class="table-col-1">Writing</div>
+            <div className="table-col-1"></div>
+            <div className="table-col-1">Speaking</div>
+            <div className="table-col-1">Writing</div>
           </div>
-          <div class="table-row">
-            <div class="table-col-1">English</div>
-            <div class="table-col-1"><img src={Rating2} alt="Rating" /></div>
-            <div class="table-col-1"><img src={Rating3} alt="Rating" /></div>
+          <div className="table-row">
+            <div className="table-col-1">English</div>
+            <div className="table-col-1"><img src={Rating2} alt="Rating" /></div>
+            <div className="table-col-1"><img src={Rating3} alt="Rating" /></div>
           </div>
         </section>
           </div>
