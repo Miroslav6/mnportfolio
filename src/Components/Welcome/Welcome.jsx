@@ -6,7 +6,7 @@ function Welcome() {
     <div className="container welcome-section">
     <div className="row">
       <div className="col-md-10">
-      <h1>Hi, my name is <strong>Miroslav Nedev</strong>,
+      <h1 className="ml2">Hi, my name is <strong>Miroslav Nedev</strong>,
       Lead Front End Developer
       and Tech Enthusiast.</h1>
       <p>Self-motivated software developer with <strong>over 8 years</strong> of professional experience in coding, launching and teaching others.</p>
