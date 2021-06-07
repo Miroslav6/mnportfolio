@@ -35,7 +35,7 @@ function App() {
         <h2 className="offset-sm-2 col-sm-10 cv-section-title">Professional Experience</h2>
         <div className="col-sm-2 text-right cv-timeline-details">
           <div className="cv-timeline-company">KUKUI</div>
-          <div className="cv-timeline-date">6/2012 - Current</div>
+          <div className="cv-timeline-date">6/2012 - 6/2021</div>
           <a href="https://kukui.com">kukui.com</a>
         </div>
         <div className="col-sm-10 cv-timeline-body">
