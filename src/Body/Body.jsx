@@ -34,8 +34,20 @@ class Body extends React.Component {
 
       <h2 className="offset-sm-2 col-sm-10 cv-section-title">Professional Experience</h2>
       <div className="col-sm-2 text-right cv-timeline-details">
+        <div className="cv-timeline-company">VSG</div>
+        <div className="cv-timeline-date">6/2021 - current</div>
+        <a href="https://vsgbg.com/bg/home/">vsgbg.com</a>
+      </div>
+      <div className="col-sm-10 cv-timeline-body">
+        <h4 className="cv-timeline-position">Front-end Developer</h4>
+        <ul>
+          <li>Work with JS Frameworks</li>
+        </ul>
+      </div>
+      
+      <div className="col-sm-2 text-right cv-timeline-details">
         <div className="cv-timeline-company">KUKUI</div>
-        <div className="cv-timeline-date">6/2012 - 6/2021</div>
+        <div className="cv-timeline-date">6/2015 - 6/2021</div>
         <a href="https://kukui.com">kukui.com</a>
       </div>
       <div className="col-sm-10 cv-timeline-body">
@@ -78,6 +90,7 @@ class Body extends React.Component {
           <li><a rel='nofollow' target='_blank'>Adobe Photoshop</a></li>
           <li><a rel='nofollow' target='_blank'>Tortuise SVN</a></li>
           <li><a rel='nofollow' target='_blank'>Git</a></li>
+          <li><a rel='nofollow' target='_blank'>Sourcetree</a></li>
           <li><a rel='nofollow' target='_blank'>NPM</a></li>
           <li><a rel='nofollow' target='_blank'>SalesForce</a></li>
           <li><a rel='nofollow' target='_blank'>DUDA</a></li>
@@ -86,6 +99,7 @@ class Body extends React.Component {
           <li><a rel='nofollow' target='_blank'>Tech recruitment</a></li>
           <li><a rel='nofollow' target='_blank'>Client negotiations</a></li>
           <li><a rel='nofollow' target='_blank'>Mentor & Leader</a></li>
+          <li><a rel='nofollow' target='_blank'>JIRA</a></li>
         </ul>
       </div>
 
