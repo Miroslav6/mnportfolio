@@ -41,7 +41,7 @@ class Body extends React.Component {
       <div className="col-sm-10 cv-timeline-body">
         <h4 className="cv-timeline-position">Front-end Developer</h4>
         <ul>
-          <li>Work with JS Frameworks</li>
+          <li>Work with JS Frameworks - React</li>
         </ul>
       </div>
       
@@ -164,16 +164,16 @@ class Body extends React.Component {
 
       <h3 className="offset-sm-2 col-sm-10 cv-section-title">Languages</h3>
       <div className="offset-sm-2 col-sm-10 cv-section-content">
-        <section>
-          <div className="table-header">
-            <div className="table-col-1"></div>
-            <div className="table-col-1">Speaking</div>
-            <div className="table-col-1">Writing</div>
-          </div>
+        <section className="lng-section">
           <div className="table-row">
             <div className="table-col-1">English</div>
-            <div className="table-col-1"><img src={Rating2} alt="Rating" /></div>
-            <div className="table-col-1"><img src={Rating3} alt="Rating" /></div>
+            <div className="table-col-1">
+              <span className="speaking-label">Speaking</span>
+              <img src={Rating3} alt="Rating" /></div>
+            <div className="table-col-1">
+              <span className="writing-label">Writing</span>
+              <img src={Rating3} alt="Rating" />
+            </div>
           </div>
         </section>
       </div>

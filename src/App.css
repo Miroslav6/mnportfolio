@@ -545,6 +545,16 @@ page-break-after: avoid;
   flex: 1;        /* distributes space on the line equally among items */
 }
 
+.speaking-label,
+.writing-label{
+  display: block;
+  margin: 0 0 .5rem;
+}
+
+.lng-section img{
+  max-width: 80%;
+}
+
 
 
  /* Extra small screens
