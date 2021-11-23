@@ -85,7 +85,6 @@ class Body extends React.Component {
           <li><a rel='nofollow' target='_blank'>HTML</a></li>
           <li><a rel='nofollow' target='_blank'>Bootstrap</a></li>
           <li><a rel='nofollow' target='_blank'>JavaScript</a></li>
-          <li><a rel='nofollow' target='_blank'>Angular</a></li>
           <li><a rel='nofollow' target='_blank'>React</a></li>
           <li><a rel='nofollow' target='_blank'>Adobe Photoshop</a></li>
           <li><a rel='nofollow' target='_blank'>Tortuise SVN</a></li>
