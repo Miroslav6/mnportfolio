@@ -14,7 +14,7 @@ class Body extends React.Component {
       </div>
       <div className="col-sm-7 col-md-7 cv-header-text">
         <h1 className="cv-header-name">Miroslav Nedev</h1>
-        <h2 className="cv-header-subname">Lead Front End Developer</h2>
+        <h2 className="cv-header-subname">Front End Developer</h2>
         <p className="cv-header-lead">
           Self-motivated software developer with over eight years of professional experience in coding, launching and
         teaching others.<br />
