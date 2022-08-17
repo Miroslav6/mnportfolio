@@ -34,8 +34,18 @@ class Body extends React.Component {
 
       <h2 className="offset-sm-2 col-sm-10 cv-section-title">Professional Experience</h2>
       <div className="col-sm-2 text-right cv-timeline-details">
+        <div className="cv-timeline-company">The B Team</div>
+        <div className="cv-timeline-date">4/2022 - Current</div>
+      </div>
+      <div className="col-sm-10 cv-timeline-body">
+        <h4 className="cv-timeline-position">Front-end Developer</h4>
+        <ul>
+          <li>Work with JQuery</li>
+        </ul>
+      </div>
+      <div className="col-sm-2 text-right cv-timeline-details">
         <div className="cv-timeline-company">VSG</div>
-        <div className="cv-timeline-date">6/2021 - current</div>
+        <div className="cv-timeline-date">6/2021 - 4/2022</div>
         <a href="https://vsgbg.com/bg/home/">vsgbg.com</a>
       </div>
       <div className="col-sm-10 cv-timeline-body">
